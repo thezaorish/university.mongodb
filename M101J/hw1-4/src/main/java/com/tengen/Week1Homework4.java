@@ -42,7 +42,6 @@ public class Week1Homework4 {
     private static final Logger logger = LoggerFactory.getLogger("logger");
 
     public static void main(String[] args) throws UnknownHostException {
-
         final Configuration configuration = new Configuration();
         configuration.setClassForTemplateLoading(Week1Homework4.class, "/");
 
