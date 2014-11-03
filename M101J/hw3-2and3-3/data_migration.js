@@ -1,0 +1,3 @@
+doc = {title : "Martians to use MongoDB", author : "andrew", body : "Representatives from the planet Mars announced today that the planet would adopt MongoDB as a planetary standard. Head Martian Flipblip said that MongoDB was the perfect tool to store the diversity of life that exists on Mars.", permalink : "martians_to_use_mongodb", tags : ["martians", "seti", "nosql", "worlddomination"], comments: [], date : new Date()}
+db.posts.insert(doc)
+db.posts.find().pretty()
